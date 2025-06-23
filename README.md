@@ -14,7 +14,8 @@ To identify open ports and services in the local network using Nmap and understa
 4. Saved results in `scan_results.txt`.
 
 ## Sample Output
-![screenshot](./screenshots/scan.png)
+![image](https://github.com/user-attachments/assets/a369f3fe-fc9c-49ce-af96-debc27091bc9)
+
 
 ## Key Learnings
 - Basics of port scanning and network enumeration.
