@@ -1,2 +1,24 @@
-# Scan-Your-Local-Network-for-Open-Ports
-Learn to discover open ports on devices in your local network to understand network exposure.
+# Task 1 - Local Network Port Scan
+
+## Objective
+To identify open ports and services in the local network using Nmap and understand potential exposure.
+
+## Tools Used
+- Nmap
+- Wireshark (optional)
+
+## Steps Followed
+1. Identified IP range using `ipconfig`.
+2. Ran TCP SYN scan: `nmap -sS 192.168.1.0/24`
+3. Collected data on live hosts and open ports.
+4. Saved results in `scan_results.txt`.
+
+## Sample Output
+![screenshot](./screenshots/scan.png)
+
+## Key Learnings
+- Basics of port scanning and network enumeration.
+- Understanding service exposure and open port risks.
+
+## Author
+Ansuman Behera
